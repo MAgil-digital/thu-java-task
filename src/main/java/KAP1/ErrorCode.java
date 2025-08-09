@@ -25,7 +25,7 @@ public class ErrorCode {
         //Korrektur
         System.out.print("Height: ");
         double height = scan.nextDouble();
-        double circumference = 2 * pi * -(-radius);
+        double circumference = 2 * pi * (-radius);
 
         //Fehler 4 - ^ nicht zulässig
         //double baseArea = pi * radius ^ 2;
